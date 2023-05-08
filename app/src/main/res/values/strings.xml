@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">My First App</string>
+
+    <string name="user_name">Zakaria Hossain Al-Hadi</string>
+    <string name="designation">Software Developer</string>
+    <string name="email_address">Email: query@jakariya.info</string>
+    <string name="whatsapp_no">WhatsApp: +8801762940480</string>
+    <string name="web_address">Website: www.jakariya.info</string>
+    <string name="fb_profile">Facebook: www.fb.com/al.hadi.bdg</string>
 </resources>
