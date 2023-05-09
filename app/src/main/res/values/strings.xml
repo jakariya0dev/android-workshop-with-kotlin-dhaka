@@ -3,8 +3,10 @@
 
     <string name="user_name">Zakaria Hossain Al-Hadi</string>
     <string name="designation">Software Developer</string>
-    <string name="email_address">Email: query@jakariya.info</string>
-    <string name="whatsapp_no">WhatsApp: +8801762940480</string>
+    <string name="email_address">query@jakariya.info</string>
+    <string name="whatsapp_no">+8801762940480</string>
     <string name="web_address">Website: www.jakariya.info</string>
     <string name="fb_profile">Facebook: www.fb.com/al.hadi.bdg</string>
+    <string name="hire_me">Hire me</string>
+    <string name="download_cv">Download Cv</string>
 </resources>
