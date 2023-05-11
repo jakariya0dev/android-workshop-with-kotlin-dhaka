@@ -11,10 +11,10 @@
     tools:context=".MainActivity">
 
     <de.hdodenhof.circleimageview.CircleImageView
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+
         android:id="@+id/profile_image"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:src="@drawable/pro_pic"
         app:civ_border_width="5dp"
         android:layout_gravity="center"
@@ -27,7 +27,7 @@
         android:text="@string/user_name"
         android:gravity="center"
         android:textStyle="bold"
-        android:textSize="30sp"
+        android:textSize="25sp"
         />
 
     <TextView
@@ -50,13 +50,14 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_baseline_mail_outline_24" />
+            android:src="@drawable/ic_baseline_mail_outline_24"
+            android:contentDescription="@string/bottom_sheet_behavior" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_marginStart="10dp"
             style="@style/description_text_style"
-            android:text="@string/email_address" />
+            android:text="@string/email_address"/>
     </LinearLayout>
 
     <LinearLayout
@@ -66,7 +67,8 @@
         <ImageView
             android:src="@drawable/whatsapp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/todo" />
 
         <TextView
             android:layout_marginStart="10dp"
@@ -90,18 +92,22 @@
         android:layout_height="wrap_content"/>
 
     <LinearLayout
+        android:baselineAligned="false"
         android:layout_marginTop="25dp"
         android:layout_width="match_parent"
         android:weightSum="2"
-        android:layout_height="100dp">
+        android:layout_height="50dp">
 
         <LinearLayout
+
             android:background="#FF6F00"
             android:layout_width="0dp"
             android:layout_weight="1"
-
             android:layout_height="match_parent">
             <TextView
+                android:id="@+id/hire_me_tv_id"
+                android:clickable="true"
+                android:focusable="true"
                 android:gravity="center"
                 android:text="@string/hire_me"
                 android:textColor="@color/white"
@@ -111,22 +117,33 @@
         </LinearLayout>
 
         <LinearLayout
+
             android:background="#1A237E"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="match_parent">
 
             <TextView
-                android:gravity="center"
-                android:textSize="22sp"
-                android:textColor="@color/white"
-                android:text="@string/download_cv"
+                android:id="@+id/download_cv_tv_id"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="@string/download_cv"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
         </LinearLayout>
 
     </LinearLayout>
 
+    <Button
+        android:id="@+id/btn_contact_me_id"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="@string/contact_me"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
 
 
 </LinearLayout>

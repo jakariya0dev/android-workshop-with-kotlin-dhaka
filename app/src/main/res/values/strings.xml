@@ -8,5 +8,11 @@
     <string name="web_address">Website: www.jakariya.info</string>
     <string name="fb_profile">Facebook: www.fb.com/al.hadi.bdg</string>
     <string name="hire_me">Hire me</string>
-    <string name="download_cv">Download Cv</string>
+    <string name="download_cv">Download CV</string>
+    <string name="todo">TODO</string>
+    <string name="contact_me">Contact Me</string>
+    <string name="visit_my_website">Visit My Website</string>
+    <string name="call_me">Call Me</string>
+    <string name="send_message">Send Message</string>
+    <string name="back_home">Back Home</string>
 </resources>

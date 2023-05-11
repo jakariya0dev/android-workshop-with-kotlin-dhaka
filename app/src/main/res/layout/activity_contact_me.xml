@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ContactMe">
+
+    <ImageView
+
+        android:id="@+id/iv_profile_id"
+        android:layout_marginBottom="60dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"/>
+
+    <Button
+        android:text="@string/visit_my_website"
+        android:textSize="16sp"
+        android:id="@+id/btn_visit_my_site_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/btn_call_me_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/call_me"
+        android:textSize="16sp" />
+
+    <Button
+        android:text="@string/send_message"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <Button
+        android:backgroundTint="#ff0000"
+        android:text="@string/back_home"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"/>
+</LinearLayout>
